@@ -1,0 +1,55 @@
+<!-- Agrega el CSS personalizado -->
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; /* Color de fondo de la página */
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        /* Estilo de la barra de navegación */
+        .navbar {
+            background-color: #343a40; /* Color de fondo de la barra de navegación */
+            color: #fff; /* Color del texto de la barra de navegación */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff; /* Color del texto de los enlaces en la barra de navegación */
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #17a2b8; /* Color del texto de los enlaces al pasar el cursor */
+        }
+
+        /* Estilo del contenido principal */
+        .jumbotron {
+            background-color: #007bff; /* Color de fondo del encabezado */
+            color: #fff; /* Color del texto del encabezado */
+            padding: 80px;
+        }
+
+        /* Estilo de las tarjetas */
+        .card {
+            border: none;
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Estilo del pie de página */
+        .footer {
+            background-color: #343a40; /* Color de fondo del pie de página */
+            color: #fff; /* Color del texto del pie de página */
+            padding: 20px 0;
+        }
+    </style>
